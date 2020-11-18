@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+<body>
+	<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name"><br><br>
+  <label for="e-mail">Sender's E-mail</label><br>
+  <input type="text" id="e-mail"><br><br>
+  <label for="e-mail">Receivers's E-mail</label><br>
+  <input type="text" id="e-mail"><br><br>
+  <label for="e-mail">Content to be mailed</label><br>
+  <input type="text" id="e-mail"><br><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <input type="submit" value="Submit">
+	</form>
+	<nav>
+<a href="about us.html" target="_blank">About</a>
+<a href="contacts.html" target="_blank">Contacts</a>
+<a href="java mini.html" target="_blank">Home</a>
+</nav>
+	<style>
+		form
+		{
+			padding: 40px;
+			text-align: center;
+		}
+		body
+		{
+			background-color: yellow;
+		}
+		nav 
+	{
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(100%, -290%); 
+  font-size: 20px;
+  padding: 50px;
+  word-spacing: 50px;
+}
+	</style>
+</body>
+</html>
